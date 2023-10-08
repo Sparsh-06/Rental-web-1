@@ -1,0 +1,23 @@
+.servicePage {
+    background-color: white;
+    height: 80vh;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+}
+
+.sidebar {
+
+    flex: 1;
+    border-right: grey 1px solid;
+    height: 70vh;
+    /* Add additional styles for your sidebar here */
+}
+
+.mainContent {
+    flex: 3;
+    /* Add additional styles for your main content area here */
+}
+

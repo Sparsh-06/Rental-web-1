@@ -1,0 +1,52 @@
+.profile-section {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.profile-picture {
+    width: 55%;
+    padding-right: 50px;
+    display: flex;
+    justify-content: end;
+}
+
+.profile-picture Input {
+    /* display: block; */
+    width: 300px;
+    height: 300px;
+    /* align-self: center; */
+}
+
+.profile-form {
+    width: 60%;
+    padding: 0px 18vw 0 30px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 15px;
+}
+
+.name-fields input {
+    flex: 1;
+}
+
+.grp {
+    /* width: 100%; */
+    margin-top: 20px;
+    /* padding: 10px; */
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

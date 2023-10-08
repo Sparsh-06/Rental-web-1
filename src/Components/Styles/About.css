@@ -1,0 +1,31 @@
+/* .AboutUs {
+  background-color: rgba(0,0,0,0);
+} */
+
+.aboutgrid {
+  padding: 30px;
+  gap: 20px;
+  background-color: #638bb41f;
+  height: 30vh;
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 768px){
+  .aboutgrid {
+    grid-template-columns: 1fr;
+    /* Single column layout for smaller screens */
+    height: 100%;
+    /* Adjust the height as needed */
+    padding: 20px;
+    /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-height:500px){
+  .aboutgrid{
+    height: 100%;
+  }
+}

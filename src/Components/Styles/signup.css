@@ -1,0 +1,83 @@
+/* signup.css */
+
+.signup {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px 1px black;
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+}
+
+.signuppage, .loginpage {
+    min-width: 60vw;
+}
+
+.forminput {
+    padding: 25px;
+}
+
+.forminput::placeholder {
+    color: #333;
+}
+
+form > div {
+    padding: 15px;
+}
+
+.showhide {
+    margin-right: 20px;
+    color: white;
+}
+
+.formgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 20px;
+    align-items: center;
+}
+
+.button2 {
+    /* Style for the second button (Sign Up with Google) */
+    grid-column: span 1; /* Make it span only one column for less width */
+    font-size: 11px;
+    width: 200px; /* Set a specific width for the second button */
+    /* Add any other styles as needed */
+}
+
+.formgrid > button{
+    font-size: 11px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 800px) {
+    form {
+        padding: 20px;
+    }
+
+    .formgrid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .showhide {
+        margin-right: 10px;
+    }
+}
+
